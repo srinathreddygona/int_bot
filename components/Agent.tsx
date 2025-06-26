@@ -155,9 +155,8 @@ const Agent = ({
           serverMessages: [],
         },
     
-        undefined,
-        generator
-      );
+        process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID );
+      
     } else {
       let formattedQuestions = "";
       if (questions) {
