@@ -154,7 +154,7 @@ const Agent = ({
           clientMessages: ["transcript"],
           serverMessages: [],
         },
-    
+        undefined,
         process.env.NEXT_PUBLIC_VAPI_WORKFLOW_ID );
       
     } else {
